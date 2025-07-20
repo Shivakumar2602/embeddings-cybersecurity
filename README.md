@@ -11,12 +11,9 @@ This project implements a modular and real-time anomaly detection framework insp
 ```
 embedding_anomaly_detection/
 │
-├── data/
-│   ├── cse_cic_ds2018.csv                # Raw network flow data (user-provided)
-│   ├── synthetic_siem_logs.csv           # Synthetic SIEM event logs
-│   └── preprocessing/
-│       ├── network_flow_preprocessing.py # Network flow preprocessing
-│       └── synthetic_siem_generator.py   # SIEM data generation script
+├── data_preprocessing/
+│   ├── network_flow_preprocessing.py # Network flow preprocessing
+│   ├── synthetic_siem_generator.py   # SIEM data generation script
 │
 ├── models/
 │   ├── vae/
