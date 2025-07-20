@@ -49,10 +49,8 @@ embedding_anomaly_detection/
 pip install -r requirements.txt
 ```
 
-2. **Download and place network flow data** (CSE-CIC-DS2018):
+2. **Place network flow data**:
 
-- Download from: https://www.unb.ca/cic/datasets/cse-cic-ids2018.html
-- Use CICFlowMeter to extract flows
 - Save as `data/cse_cic_ds2018.csv`
 
 3. **Generate synthetic SIEM data**:
